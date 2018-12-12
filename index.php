@@ -5,8 +5,6 @@ if (mysqli_connect_errno()) {
 	echo "failed to connect: " . mysqli_connect_errno();
 }
 
-$query = mysqli_query($con, "INSERT INTO test VALUES('', 'Theresa')");
-
 ?>
 
 
@@ -16,6 +14,6 @@ $query = mysqli_query($con, "INSERT INTO test VALUES('', 'Theresa')");
 	<title></title>
 </head>
 <body>
-lorem dec 10
+	Social network
 </body>
 </html>
